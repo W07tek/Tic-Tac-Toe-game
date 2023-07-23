@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+    <title>Tic Tac Toe game</title>
+</head>
+
+<body class="wrapper">
+
+    <div class="game-container">
+
+        <div class="navigation-panel">
+
+            <div class="symbols">
+                <i class="cross fa-solid fa-xmark "></i>
+                <i class="circle fa-solid fa-o "></i>
+            </div>
+
+
+            <div class="whose-turn">
+
+                <div class="whose-turn-box">
+                    <i class="fa-solid fa-xmark"></i> <span>TURN</span>
+                </div>
+
+
+            </div>
+
+            <div class="reset">
+                <button class="reset-btn">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="game-panel">
+            <div class="game-box"></div>
+            <div class="game-box"></div>
+            <div class="game-box"></div>
+            <div class="game-box"></div>
+            <div class="game-box"></div>
+            <div class="game-box"></div>
+            <div class="game-box"></div>
+            <div class="game-box"></div>
+            <div class="game-box"></div>
+        </div>
+
+        <div class="score-panel">
+            <div class="playerX-wins">
+                <span>X (YOU)</span>
+                <span class="score">0</span>
+            </div>
+            <div class="draws">
+                <span>TIES</span>
+                <span class="score">0</span>
+            </div>
+            <div class="playerO-wins">
+                <span>O (CPU)</span>
+                <span class="score">0</span>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
